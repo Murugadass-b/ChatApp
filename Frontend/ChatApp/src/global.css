@@ -1,0 +1,10 @@
+:root{
+    --header-height: 64px;
+}
+
+
+.header{
+    height: var(--header-height);
+    border: 2px solid black;
+    display: flex;
+}
