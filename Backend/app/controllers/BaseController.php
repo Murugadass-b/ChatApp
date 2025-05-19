@@ -1,5 +1,6 @@
 <?php
-namespace App\Controllers;
+namespace App\controllers;
+header("Access-Control-Allow-Origin: http://localhost:5173");
 
 // include_once(__DIR__.'/../config/Routes.php');
 include_once(__DIR__.'/../config/Constants.php');

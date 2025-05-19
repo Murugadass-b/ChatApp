@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Controllers;
+namespace App\controllers;
 
-use App\Controllers\BaseController;
+use App\controllers\BaseController;
 use App\Models\chatModel;
 
 class ChatController extends BaseController

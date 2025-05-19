@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Controllers;
+namespace App\controllers;
 
-use App\Controllers\BaseController;
-use App\Controllers\ChatController;
+use App\controllers\BaseController;
+use App\controllers\ChatController;
 use App\Model\userModel;
 
 class AuthController extends BaseController

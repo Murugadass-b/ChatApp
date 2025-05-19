@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Models;
+namespace App\models;
 
-use App\Models\BaseModel;
+use App\models\BaseModel;
 use mysqli;
 
 class chatModel extends BaseModel{
@@ -24,8 +24,9 @@ class chatModel extends BaseModel{
     }
 
     public function getFriendsList(){
-        session_start();
-        $userId = $_SESSION['userId'];
+        // session_start();
+        // $userId = $_SESSION['userId'];
+        $userId = "1";
         $sql = "select u.user_id AS userId,u.user_name AS userName from users u JOIN friends f ON f.user_id_2 =  u.user_id WHERE f.user_id_1 = $userId AND f.status = 'accepted';";
 
         $res = mysqli_query($this->db,$sql);

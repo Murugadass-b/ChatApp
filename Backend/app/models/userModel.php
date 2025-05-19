@@ -1,5 +1,5 @@
 <?php
-    namespace App\Models;
+    namespace App\models;
     // include_once 'BaseModel.php';
     // echo "Sfsd";
 class userModel extends BaseModel{
